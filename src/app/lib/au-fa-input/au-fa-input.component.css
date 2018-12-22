@@ -1,7 +1,22 @@
 .au-fa-icon {
-    background: #fff;
+    border: none;
     width: 22px;
     text-align: center;
     padding-left: 5px;
     padding-right: 2px;
+}
+
+:host {
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    padding: 5px;
+    background: #fff;
+    display: inline-block;
+}
+
+input {
+    border: none;
+    outline: none;
+    height: 100%;
+    box-sizing: border-box;
 }
