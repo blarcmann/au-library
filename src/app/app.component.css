@@ -14,9 +14,12 @@
     margin-bottom: 10px;
   }
   
+  .stripe-field fa-input {
+    border: 1px solid #4e57de;
+  }
   
   input {
-    height: 25px;
+      height: 25px; 
   }
   
   .normal-input {

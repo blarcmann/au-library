@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { AuFaInputComponent } from './lib/au-fa-input/au-fa-input.component';
+import { FaInputModule } from './lib/fa-input.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuFaInputComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    FaInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
