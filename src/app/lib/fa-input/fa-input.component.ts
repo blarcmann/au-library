@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ContentChild, AfterContentInit, HostListener, ViewEncapsulation } from '@angular/core';
+import { Component, Input, ContentChild, AfterContentInit, HostListener, ViewEncapsulation } from '@angular/core';
 import { InputRefDirective } from '../common/input-ref.directive';
 
 @Component({
@@ -20,7 +20,7 @@ export class FaInputComponent implements AfterContentInit {
     }
   }
 
-  @HostListener('class.input-focus')
+  @HostListener("class.input-focus")
   get isInputFocus() {
     return this.input ? this.input.focus : false;
   }

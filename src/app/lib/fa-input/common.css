@@ -16,7 +16,7 @@
     outline: none;
 }
 
-:host ::ng-deep input {
+:host /deep/ input {
     border: none;
     outline: none;
     height: 100%;
