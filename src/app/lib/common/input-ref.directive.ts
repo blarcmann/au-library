@@ -1,7 +1,7 @@
-import { Directive, HostListener, Host } from '@angular/core';
+import { Directive, HostListener } from '@angular/core';
 
 @Directive({
-  selector: 'fa-input input'
+  selector: '[faInput]'
 })
 export class InputRefDirective {
   focus = false;
